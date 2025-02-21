@@ -1,4 +1,5 @@
-public interface atm{
-     public abstract void getMyBalance();
-    
+
+public interface ATM {
+    double getBalance();
+    boolean getCash(double amount);
 }
